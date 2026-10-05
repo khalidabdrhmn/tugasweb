@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website profil pribadi Khalid Abdul Rohman">
+    <title>Profil | Khalid Abdul Rohman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-wrapper">
+            <a href="#beranda" class="logo">KENALIN, GW KHALID!<span>.</span></a>
+
+            <nav>
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#aktivitas">Aktivitas</a>
+                <a href="#minat">Minat IT</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="beranda" class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-text">
+                    <p class="label">WEBSITE PROFIL PRIBADI</p>
+
+                    <h1>
+                        Halo, saya<br>
+                        <span>Khalid Abdul Rohman</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Mahasiswa Teknik Komputer yang memiliki ketertarikan
+                        untuk terus belajar dan mengembangkan kemampuan di
+                        bidang teknologi informasi, khususnya Data Analis.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#tentang" class="btn primary">Kenali Saya</a>
+                        <a href="#minat" class="btn secondary">Bidang Minat</a>
+                    </div>
+                </div>
+
+                <!-- FOTO PROFIL -->
+                <div class="photo-area">
+                    <div class="photo-decoration"></div>
+
+                    <div class="photo-card">
+                        
+                        <img src="wong-sangar.jpeg"
+                             alt="Foto Profil Khalid Abdul Rohman"
+                             onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';">
+
+                        <div id="photoPlaceholder" class="photo-placeholder">
+                            <div class="camera-icon">📷</div>
+                            <strong>Foto Profil</strong>
+                            <small>Masukkan foto kamu di sini</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card">
+                        <span>🎓</span>
+                        <div>
+                            <strong>Teknik Komputer</strong>
+                            <small>Mahasiswa</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TENTANG -->
+        <section id="tentang" class="section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">TENTANG SAYA</p>
+                    <h2>Profil Pribadi</h2>
+                    <p>
+                        Berikut merupakan informasi singkat mengenai diri saya.
+                    </p>
+                </div>
+
+                <div class="profile-layout">
+
+                    <div class="about-text">
+                        <h3>Siapa Saya?</h3>
+                        <p>
+                            Nama saya <strong>Khalid Abdul Rohman</strong>.
+                            Saya merupakan mahasiswa Program Studi Teknik
+                            Komputer dengan NIM <strong>2405110032</strong>.
+                        </p>
+
+                        <p>
+                            Sebagai mahasiswa di bidang teknologi, saya ingin
+                            terus menambah pengetahuan dan pengalaman dalam
+                            dunia IT serta mempersiapkan kemampuan untuk
+                            menghadapi perkembangan teknologi di masa depan.
+                        </p>
+                    </div>
+
+                    <div class="info-list">
+
+                        <div class="info-item">
+                            <div class="info-icon">👤</div>
+                            <div>
+                                <span>Nama</span>
+                                <strong>Khalid Abdul Rohman</strong>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">🪪</div>
+                            <div>
+                                <span>NIM</span>
+                                <strong>2405110032</strong>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">💻</div>
+                            <div>
+                                <span>Program Studi</span>
+                                <strong>Teknik Komputer</strong>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- AKTIVITAS -->
+        <section id="aktivitas" class="section gray">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">DI LUAR PERKULIAHAN</p>
+                    <h2>Kesibukan Saya</h2>
+                    <p>
+                        Beberapa kegiatan yang saya lakukan di luar kegiatan
+                        perkuliahan.
+                    </p>
+                </div>
+
+                <div class="activity-grid">
+
+                    <article class="activity-card">
+                        <div class="activity-number">01</div>
+                        <div class="activity-icon">🎮</div>
+                        <h3>Bermain Game</h3>
+                        <p>
+                            Bermain game merupakan salah satu kegiatan yang
+                            saya lakukan untuk mengisi waktu luang dan
+                            refreshing setelah menjalani aktivitas.
+                        </p>
+                    </article>
+
+                    <article class="activity-card">
+                        <div class="activity-number">02</div>
+                        <div class="activity-icon">🏠</div>
+                        <h3>Membantu Orang Tua</h3>
+                        <p>
+                            Ketika berada di rumah, saya juga membantu orang
+                            tua dalam berbagai kegiatan dan pekerjaan
+                            sehari-hari.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MINAT IT -->
+        <section id="minat" class="section interest">
+            <div class="container interest-grid">
+
+                <div>
+                    <p class="label">BIDANG IT YANG INGIN DIDALAMI</p>
+                    <h2>Data <span>Analis</span></h2>
+
+                    <p class="interest-description">
+                        Bidang IT yang ingin saya dalami adalah
+                        <strong>Data Analis</strong>. Saya tertarik untuk
+                        mempelajari bagaimana data dapat dikumpulkan, diolah,
+                        dianalisis, dan diubah menjadi informasi yang berguna.
+                    </p>
+
+                    <div class="skills">
+                        <div class="skill">
+                            <span>Analisis Data</span>
+                            <div class="skill-line">
+                                <div class="skill-progress progress-1"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Pengolahan Data</span>
+                            <div class="skill-line">
+                                <div class="skill-progress progress-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <span>Visualisasi Data</span>
+                            <div class="skill-line">
+                                <div class="skill-progress progress-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-visual">
+                    <div class="chart-header">
+                        <span>DATA ANALYSIS</span>
+                        <span>2026</span>
+                    </div>
+
+                    <div class="chart">
+                        <div class="chart-bar bar-1"><span>45</span></div>
+                        <div class="chart-bar bar-2"><span>65</span></div>
+                        <div class="chart-bar bar-3"><span>55</span></div>
+                        <div class="chart-bar bar-4"><span>85</span></div>
+                        <div class="chart-bar bar-5"><span>72</span></div>
+                    </div>
+
+                    <div class="chart-labels">
+                        <span>A</span>
+                        <span>B</span>
+                        <span>C</span>
+                        <span>D</span>
+                        <span>E</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PENUTUP -->
+        <section class="quote-section">
+            <div class="container">
+                <div class="quote-mark">“</div>
+                <h2>
+                    Terus belajar, berkembang,<br>
+                    dan memanfaatkan teknologi.
+                </h2>
+                <p>
+                    Website profil pribadi — Khalid Abdul Rohman
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <strong>Khalid Abdul Rohman<span>.</span></strong>
+                <p>Website Profil Pribadi</p>
+            </div>
+
+            <p>© <span id="year"></span> Khalid Abdul Rohman</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
